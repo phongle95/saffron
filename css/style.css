@@ -556,10 +556,11 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* End slider_area_tow */
 /* Banner Area */
 .banner_area {
-  background: url("../images/banner-bg.jpg") no-repeat fixed;
+  background: url("../images/saffron400.jpg") no-repeat fixed;
   background-position: center;
   text-align: center;
   position: relative;
+  height: 320px;
   z-index: 1;
   padding-bottom: 70px;
 }
@@ -567,7 +568,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   content: "";
   position: absolute;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  /* background-color: rgba(0, 0, 0, 0.8); */
   left: 0;
   right: 0;
   bottom: 0;
@@ -625,7 +626,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .about_us_area .about_row {
   padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 0px;
 }
 .about_us_area .about_row p {
   font: 400 14px/26px "Roboto", sans-serif;
@@ -817,13 +818,13 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .our_services_area .portfolio_inner_area .portfolio_filter ul li:hover a, .our_services_area .portfolio_inner_area .portfolio_filter ul li:focus a, .our_services_area .portfolio_inner_area .portfolio_filter ul li.active a {
   color: #A81010;
 }
-.our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner {
+.our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner {
   position: relative;
 }
-.our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner img {
+.our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner img {
   max-width: 100%;
 }
-.our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner .gallery_hover {
+.our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner .gallery_hover {
   background-color: rgba(248, 184, 29, 0.851);
   position: absolute;
   top: 20px;
@@ -833,12 +834,12 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   overflow: hidden;
   display: block;
   text-align: center;
-  padding-top: calc(50% - 70px);
+  /* padding-top: calc(50% - 70px); */
   cursor: pointer;
   opacity: 0;
   transition: all 300ms linear 0s;
 }
-.our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner .gallery_hover h4 {
+.our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner .gallery_hover h4 {
   color: #fff;
   font: 700 14px "Roboto", sans-serif;
   padding-bottom: 30px;
@@ -847,22 +848,22 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   left: -65%;
   transition: all 300ms linear 0s;
 }
-.our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner .gallery_hover ul {
+.our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner .gallery_hover ul {
   padding: 0;
   margin: 0;
   position: relative;
   right: -67%;
   transition: all 300ms linear 0s;
 }
-.our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner .gallery_hover ul li {
+.our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner .gallery_hover ul li {
   list-style: none;
   display: inline-block;
   padding-left: 17px;
 }
-.our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner .gallery_hover ul li:first-child {
+.our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner .gallery_hover ul li:first-child {
   padding: 0;
 }
-.our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner .gallery_hover ul li a {
+.our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner .gallery_hover ul li a {
   font-size: 14px;
   color: #fff;
   line-height: 45px;
@@ -871,17 +872,17 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   border: 1px solid #fff;
   display: block;
 }
-.our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner .gallery_hover ul li a:hover, .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner .gallery_hover ul li a:focus {
+.our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner .gallery_hover ul li a:hover, .our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner .gallery_hover ul li a:focus {
   color: #A81010;
   background: #fff;
 }
-.our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner:hover .gallery_hover, .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner:focus .gallery_hover {
+.our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner:hover .gallery_hover, .our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner:focus .gallery_hover {
   opacity: 1;
 }
-.our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner:hover .gallery_hover h4, .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner:focus .gallery_hover h4 {
+.our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner:hover .gallery_hover h4, .our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner:focus .gallery_hover h4 {
   left: 0;
 }
-.our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner:hover .gallery_hover ul, .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner:focus .gallery_hover ul {
+.our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner:hover .gallery_hover ul, .our_services_area .portfolio_inner_area .portfolio_item .single_facilities1 .single_facilities_inner:focus .gallery_hover ul {
   right: 0;
 }
 
@@ -912,11 +913,11 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .our_services_tow .architecture_area .portfolio_filter_2 ul li {
   float: left;
   list-style: none;
-  width: 20%;
+  width: 25%;
   text-align: center;
   transition: all 300ms linear 0s;
   border-right: 1px solid #dfe3e4;
-  height: 150px;
+  height: 100px;
 }
 .our_services_tow .architecture_area .portfolio_filter_2 ul li:last-child {
   border-right: 0;
@@ -925,8 +926,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font: 400 18px "Roboto", sans-serif;
   color: #222222;
   display: block;
-  padding-top: 40px;
-  padding-bottom: 35px;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 .our_services_tow .architecture_area .portfolio_filter_2 ul li a i {
   font-size: 36px;
@@ -940,7 +941,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #A81010;
 }
 .our_services_tow .architecture_area .portfolio_2 {
-  padding-top: 90px;
+  padding-top: 20px;
 }
 .our_services_tow .architecture_area .portfolio_2 .single_facilities img {
   max-width: 100%;
@@ -1044,7 +1045,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
 /*--------------------------------------------------*/
 .our_achievments_area {
-  background: url("../images/slide-saffron.jpg") no-repeat fixed;
+  background: url("../images/safon1277.jpg") no-repeat fixed;
   background-position: center;
   text-align: center;
   position: relative;
@@ -1208,7 +1209,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* End Our Partners Area */
 /*--------------------------------------------------*/
 .featured_works {
-  background: url("../images/protfolio_bg.jpg") no-repeat fixed;
+  /* background: url("../images/protfolio_bg.jpg") no-repeat fixed; */
   background-position: center;
   text-align: center;
   position: relative;
@@ -1222,7 +1223,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   content: "";
   position: absolute;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.9);
+  /* background-color: rgba(0, 0, 0, 0.9); */
   left: 0;
   right: 0;
   bottom: 0;
@@ -1230,10 +1231,10 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   z-index: -1;
 }
 .featured_works .tittle h2 {
-  color: #fff;
+  color: #A81010;
 }
 .featured_works .tittle h4 {
-  color: #fefefe;
+  color: #555555;
 }
 .featured_works .featured_gallery {
   padding-top: 60px;
@@ -2369,6 +2370,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 }
 @media (max-width: 767px) {
+ 
   .top_header_area .top_nav li {
     display: inline-block;
   }
@@ -2647,6 +2649,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 }
 @media (max-width: 320px) {
+  
   .slider_area_tow .slider_inner .camera_caption div {
     padding-top: 95px;
   }
@@ -2675,3 +2678,27 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /*--------------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
+
+
+@media(max-width: 390px){
+  .img-gioithieu{
+    height: 150px;
+    width: 100%;
+  }
+}
+
+
+@media(min-width: 414px){
+  .img-gioithieu{
+    height: 200px;
+    width: 100%;
+  }
+}
+
+
+@media(min-width: 768px){
+  .img-gioithieu{
+    height: 400px;
+    width: 100%;
+  }
+}

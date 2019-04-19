@@ -1,6 +1,6 @@
 ;(function($) {
     "use strict";
-	
+
     //* mainNavbar
     function mainNavbar(){
         if ( $('#main_navbar').length ){ 
@@ -53,7 +53,7 @@
             $(".portfolio_item").imagesLoaded( function() {
                 $(".portfolio_item").isotope({
                     itemSelector: ".single_facilities",
-                    layoutMode: 'masonry',
+                    layoutMode: 'name',
                     percentPosition:true,
                     masonry: {
                         columnWidth: ".grid-sizer, .grid-sizer-2"  
